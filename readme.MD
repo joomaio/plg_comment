@@ -1,3 +1,7 @@
+## Version 0.4:
+- Development environment: Joomla 3.9.20, PHP 7.2.3, MySQL 5.7.26
+- Add server update
+
 ## Version 0.3:
 - Development environment: Joomla 3.9.13, PHP 7.2.3, MySQL 5.7.26
 - Update language for plugin
