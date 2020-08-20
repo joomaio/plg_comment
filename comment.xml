@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="0.3" type="plugin" group="content">
+<extension version="3.9" type="plugin" group="content">
 	<name>PLG_COMMENT</name>
 	<author>Joomaio inc.</author>
 	<creationDate>04-07-2019</creationDate>
@@ -7,8 +7,11 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>product@joomaio.com</authorEmail>
 	<authorUrl>joomaio.com</authorUrl>
-	<version>0.3</version>
+	<version>0.4</version>
 	<description>PLG_COMMENT_DESCRIPTION_TEXT</description>
+	<updateservers>
+		<server type="extension" name="plg_comment" priority="1">http://www.update.joomaio.org/plg_comment/plg_comment_update.xml</server>
+	</updateservers>
 	<files>
 		<filename plugin="comment">comment.php</filename>
 		<folder>forms</folder>
